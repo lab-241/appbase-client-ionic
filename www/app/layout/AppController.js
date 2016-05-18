@@ -47,7 +47,6 @@ angular
     $scope.resetModal.hide();
   };
 
-
   $scope.login = function() {
     if($scope.registerModal.isShown()) $scope.closeRegister();
     $scope.loginModal.show();
@@ -66,7 +65,7 @@ angular
     console.log("resetPassword");
   //  if($scope.resetModal.isShown()) $scope.closeResetPassword();
     $scope.resetModal.show();
-  }
+  };
 
   //-- On click to about button
   $scope.about = function(){
