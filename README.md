@@ -2,6 +2,8 @@
 
 [Ionic](http://ionicframework.com) based mobile part of **App Base** ecosystem.
 
+[![Build Status](https://travis-ci.org/lab-241/appbase-client-ionic.svg?branch=master)](https://travis-ci.org/lab-241/appbase-client-ionic)
+
 ![](ionic-angular.png)
 
 ### Getting started
