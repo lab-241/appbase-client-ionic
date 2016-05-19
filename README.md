@@ -20,7 +20,7 @@ $ ionic serve --lab
 
 ### Change api endpoint config value
 
-By default in development this mobile client fetch api at `htpp://localhost:3000`.
+By default in development this mobile client fetch api at `http://localhost:3000`.
 You can change it manually or by running `ngconstant` grunt task (default task).
 
 __NB :__ It necessary to test on device.
