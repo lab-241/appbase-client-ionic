@@ -3,14 +3,10 @@ angular
   .controller('ResetCtrl', function($scope, $ionicPopup,
     AuthService, MessageService, LoaderService) {
 
-      $scope.credentials = {
-        resetEmail : 'ian.otando@gmail.com'
-      };
+      $scope.credentials = {};
 
     //-- Perform the reset action when the user submits its email form
     $scope.doReset = function() {
-      console.log($scope);
-      console.log("email set =", $scope.credentials.resetEmail);
       $scope._loading(true);
       AuthService
         .resetPassword($scope.credentials.resetEmail)

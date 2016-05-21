@@ -62,8 +62,7 @@ angular
   };
 
   $scope.resetPassword = function ()  {
-    console.log("resetPassword");
-  //  if($scope.resetModal.isShown()) $scope.closeResetPassword();
+    if($scope.resetModal.isShown()) $scope.closeResetPassword();
     $scope.resetModal.show();
   };
 
